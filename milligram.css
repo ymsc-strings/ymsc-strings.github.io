@@ -601,21 +601,22 @@ img {
 
 <!-- Customized by Wenbin -->
 
-<!-- Horizontal navigation bar -->
-.hnavbar {
-	font-size: 1.3rem;
-	text-transform: uppercase;
-	border:1px solid #f4f5f6;
-	border-width:1px 0;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-	text-align: center;
-	z-index:999;
+<!-- Navigation bar -->
+
+nav {
+ background: #ffffff;
+ width: 100%;
 }
+nav ul {
+ padding: 0;
+ margin: 0;
+}
+nav ul li {
+ display: inline-block;
+ text-transform: uppercase;
+ list-style-type: none;
+ margin: 0;
+ padding: 10px 0;
+}
+
 /*# sourceMappingURL=milligram.css.map */
