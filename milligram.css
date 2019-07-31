@@ -18,7 +18,8 @@ html {
 }
 
 body {
-  color: #606c76;
+/*  color: #606c76;*/
+  color: black;
   font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   font-size: 1.6em;
   font-weight: 300;
