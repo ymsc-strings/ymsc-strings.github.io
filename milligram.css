@@ -604,25 +604,24 @@ img {
 <!-- Navigation bar -->
 
 nav {
-  border:1px solid #f4f5f6;
-  border-width:1px 0;
-  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background: #ffffff;
   width: 100%;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
 }
 nav ul {
- padding: 0;
- margin: 0;
+  border:1px solid #f4f5f6;
+  border-width:1px 0;
+  list-style-type: none;
+  position: sticky;
+  top: 0;
+  padding: 0;
+  margin: 0;
 }
 nav ul li {
  display: inline-block;
- font-size: 1.3rem;
+ font-size: 1rem;
  text-transform: uppercase;
  list-style-type: none;
  margin: 0;
