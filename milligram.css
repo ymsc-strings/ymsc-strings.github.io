@@ -604,8 +604,17 @@ img {
 <!-- Navigation bar -->
 
 nav {
- background: #ffffff;
- width: 100%;
+  border:1px solid #f4f5f6;
+  border-width:1px 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #ffffff;
+  width: 100%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 nav ul {
  padding: 0;
@@ -613,10 +622,12 @@ nav ul {
 }
 nav ul li {
  display: inline-block;
+ font-size: 1.3rem;
  text-transform: uppercase;
  list-style-type: none;
  margin: 0;
  padding: 10px 0;
+ text-align: center;
 }
 
 /*# sourceMappingURL=milligram.css.map */
