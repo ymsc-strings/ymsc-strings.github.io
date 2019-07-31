@@ -614,6 +614,7 @@ nav ul {
   border:1px solid #f4f5f6;
   border-width:1px 0;
   list-style-type: none;
+  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
   padding: 0;
