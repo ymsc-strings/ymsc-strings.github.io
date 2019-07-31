@@ -614,6 +614,8 @@ nav {
   position: sticky;
   top: 0;
 }
+
+
 nav ul {
   border:1px solid #f4f5f6;
   border-width:1px 0;
@@ -624,6 +626,11 @@ nav ul {
   padding: 0;
   margin: 0;
   background-color: #ffffff;
+}
+
+.active {
+  color: #ffffff;
+  background-color: #9b4dca;
 }
 
 nav ul li {
@@ -639,6 +646,15 @@ nav ul li {
 nav li a, .dropbtn {
   display: block;
   color: #9b4dca;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 14px 16px;
+}
+
+nav li .dropbtn-active {
+  display: block;
+  color: #ffffff;
+  background-color: #9b4dca;
   text-align: center;
   text-transform: uppercase;
   padding: 14px 16px;
@@ -681,10 +697,6 @@ nav .dropdown:hover .dropdown-content {
 }
 
 
-/* nav .active {
-  color: #ffffff;
-  background-color: #9b4dca;
-} */
 
 
 /*# sourceMappingURL=milligram.css.map */
