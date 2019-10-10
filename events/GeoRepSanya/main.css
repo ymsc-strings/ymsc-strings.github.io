@@ -515,7 +515,7 @@ td,
 th {
   border-bottom: 0.1rem solid #e1e1e1;
   padding: 1.2rem 1.5rem;
-  text-align: left;
+  text-align: center;
 }
 
 td:first-child,
