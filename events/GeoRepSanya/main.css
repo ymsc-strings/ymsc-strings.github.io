@@ -513,10 +513,12 @@ table {
 
 td,
 th {
-  border-bottom: 0.1rem solid #e1e1e1;
+  border-bottom: 0.1rem solid black;
+  border-right: 0.1rem solid black;
   padding: 1.2rem 1.5rem;
   text-align: center;
 }
+
 
 td:first-child,
 th:first-child {
