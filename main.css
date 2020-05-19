@@ -696,6 +696,32 @@ nav .dropdown:hover .dropdown-content {
   display: block;
 }
 
+/* Babak's additions */
+
+.cellMemberPhoto {
+		 width: 135px;
+		 text-align: center;
+}
+
+.cellMemberPhoto img {
+		 padding: 7px;
+		 border: 1px #ddd solid;
+}
+
+.cellMemberName {
+		font-weight: bold;
+		width: 150px;
+		vertical-align: middle;
+}
+
+.cellMemberPhone {
+		 width: 120px;
+		 vertical-align: middle;
+}
+
+.cellMemberMail {
+		vertical-align: middle;
+}
 
 
 
