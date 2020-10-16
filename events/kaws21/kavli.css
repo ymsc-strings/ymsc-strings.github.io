@@ -52,7 +52,7 @@ body {
   width: 100%;
   min-height: 300px;
   background-color: #556E5B;
-  background-image: url("/events/kaws21/pics/title.jpg");
+  background-image: url("test2.jpg");
   background-position: center;
 }
 
@@ -64,7 +64,7 @@ body {
 
 .tm-header {
   position: absolute;
-  top: 20px;
+  top: 40px;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -105,28 +105,16 @@ body {
 
 
 .tm-site-title {
-    font-size: 4.4rem;
+    font-size: 3.6rem;
     font-weight: 200;
 }
 
-@media (max-width: 800px) {
-  .tm-site-title {
-	  padding-top:40px;
-    font-size: 3.6rem;
-  }
-}
-
-@media (max-width: 660px) {
-  .tm-site-title {
-	  	  padding-top:55px;
-    font-size: 3.0rem;
-  }
-}
 
 .tm-site-description {
   font-size: 2.0rem;
   font-weight: 200;
 }
+
 
 .tm-nav {
 	position:absolute;
@@ -136,16 +124,49 @@ body {
 margin-left: -55px;
 }
 
-@media (max-width: 800px) {
+
+@media (max-width: 670px) {
+  .tm-site-title {
+    padding-top:20px;
+    font-size: 2.6rem;
+  }
+}
+
+@media (max-width: 600px) {
+.tm-header {
+    top: -15px;
+  }
+    .tm-site-title {
+		padding-top:10px;
+		    font-size: 2.0rem;
+	}
+	.tm-site-description {
+	  font-size: 1.6rem;
+	}
 	.tm-nav {
 	  margin-top: -10px;
 	}
 }
 
+
+@media (max-width: 400px) {
+.tm-header {
+    top: -35px;
+  }
+}
+
+
+
+
+
+
+
 .tm-nav-ul {
   display: flex;
   justify-content: flex-start;
 }
+
+
 
 .tm-nav-li {
   list-style: none;
@@ -168,12 +189,27 @@ margin-left: -55px;
     color: white;
   }
   
+  
   .tm-nav-link.focus {
   	    color: white;
   }
   
+  .tm-nav-link.visited {
+	  color:white;
+  }
   
   
+  @media (max-width: 600px) {
+  	.tm-nav-ul {
+  		  display: block;
+  	}
+  	.tm-nav-link {
+  	  padding-bottom: 0px;
+  	}
+	.tm-nav-li {
+		padding-bottom: 4px;
+	}
+  }
   
   
   
