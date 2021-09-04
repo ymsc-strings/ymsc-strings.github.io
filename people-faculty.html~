@@ -43,9 +43,6 @@
   	  	<li>
   	  	  <a href="workshop.html">Workshops</a>
   	  	</li>
-        <li>
-          <a href="publication.html">Publications</a>
-        </li>
   	  	<li>
   	  	  <a href="visitorinfo.html">Visitor Info</a>
   	  	</li>
@@ -79,17 +76,17 @@
   	      <td>
   	         <a href="http://inspirehep.net/author/profile/C.M.Chang.1" target="_blank"><strong>Chi-Ming Chang</strong></a><br>
   	         Assistant Professor<br>
-  	         E-mail: cmchang (at) tsinghua.edu.cn<br>
-  	         Office: Ning Zhai W05<br>
+  	         E-mail: cmchang@tsinghua.edu.cn<br>
+  	         Office: W05 NingZhai<br>
   	         Research interests:<br>
-  	         <em>Quantum field theory, String theory</em>
+  	         <em>String theory</em>
   	      </td>
   	      
   	      <td>
-  	         <a href="people/babak.html" target="_blank"><strong>Babak Haghighat</strong></a><br>
-  	         Associate Professor<br>
+  	         <a href="#"><strong>Babak Haghighat</strong></a><br>
+  	         Assistant Professor<br>
   	         E-mail: babakhaghighat (at) mail.tsinghua.edu.cn<br>
-  	         Office: Jin Chun Yuan West 253<br>
+  	         Office: 253 JinChunYuan West<br>
   	         Research interests:<br>
   	         <em>String theory</em>
   	      </td>
@@ -100,15 +97,15 @@
   	         <a href="http://sili-math.github.io/" target="_black"><strong>Si Li</strong></a><br>
   	         Professor<br>
   	         E-mail: sili (at) tsinghua.edu.cn<br>
-  	         Office: Jing Zhai 305<br>
+  	         Office: 305 JingZhai<br>
   	         Research interests:<br>
   	         <em>Algebraic geometry, Quantum filed theory, and String theory</em>
   	        </td>
   	      <td>
-  	         <a href="http://inspirehep.net/author/profile/M.Romo.1" target="_black"><strong>Mauricio Romo</strong></a><br>
+  	         <a href="#"><strong>Mauricio Romo</strong></a><br>
   	         Assistant Professor<br>
   	         E-mail: mromoj (at) gmail.com<br>
-  	         Office: Jin Chun Yuan West Building 246<br>
+  	         Office: 246 JinChunYuan West<br>
   	         Research interests:<br>
   	         <em>String theory</em>
   	      </td>
@@ -117,18 +114,18 @@
   	    <tr>
   	      <td>
   	         <a href="people/wei.html" target="_blank"><strong>Wei Song</strong></a><br>
-  	         Professor<br>
+  	         Associate Professor<br>
   	         E-mail: wsong2014 (at) mail.tsinghua.edu.cn<br>
-  	         Office: Jing Zhai 309<br>
+  	         Office: 309 JingZhai<br>
   	         Research interests:<br>
   	         <em>String theory</em>
   	      </td>
   	      <td>
   	      <div id="DanXie">
-  	         <a href="http://inspirehep.net/author/profile/D.Xie.1" target="_blank"><strong>Dan Xie</strong></a><br>
+  	         <a href="#"><strong>Dan Xie</strong></a><br>
   	         Professor<br>
   	         E-mail: danxie (at) mail.tsinghua.edu.cn<br>
-  	         Office: Jing Zhai 208<br>
+  	         Office: 208 JingZhai<br>
   	         Research interests:<br>
   	         <em>String theory</em>
   	      </div>
@@ -139,7 +136,7 @@
   	         <a href="./people/wenbin.html" target="_blank"><strong>Wenbin Yan</strong></a><br>
   	         Assistant Professor<br>
   	         E-mail: wbyan (at) mail.tsinghua.edu.cn<br>
-  	         Office: Jin Chun Yuan West Building 142<br>
+  	         Office: 142 JinChunYuan West<br>
   	         Research interests:<br>
   	         <em>String theory, Supersymmetric field theory</em>
   	      </td>
@@ -157,7 +154,7 @@
   	         <a href="#"><strong>Peng Shan</strong></a><br>
   	         Professor<br>
   	         E-mail: pengshan (at) tsinghua.edu.cn<br>
-  	         Office: Jing Zhai 206<br>
+  	         Office: 206 JingZhai<br>
   	         Research interests:<br>
   	         <em>Geometric Representation Theory</em>
   	          </div>
@@ -166,7 +163,7 @@
   	         <a href="https://sites.google.com/site/haowuproba/" target="_blank"><strong>Hao Wu</strong></a><br>
   	         Professor<br>
   	         E-mail: haowu (at) mail.tsinghua.edu.cn<br>
-  	         Office: Jing Zhai 311<br>
+  	         Office: 311 JingZhai<br>
   	         Research interests:<br>
   	         <em>Probability, Statistical Models</em>
   	        </td>
@@ -177,7 +174,7 @@
   	         <a href="http://sites.google.com/site/jiezhoumath/home" target="_blank"><strong>Jie Zhou</strong></a><br>
   	         Assistant Professor<br>
   	         E-mail: jzhou2018 (at) mail.tsinghua.edu.cn<br>
-  	         Office: Jin Chun Yuan West Building 245<br>
+  	         Office: 245 JinChunYuan West Building<br>
   	         Research interests:<br>
   	         <em>Algebraic geometry, Mathematical Physics</em>
   	        </td>
@@ -185,7 +182,7 @@
   	         <a href="#"><strong>Zhengyu Zong</strong></a><br>
   	         Assistant Professor<br>
   	         E-mail: zyzong (at) mail.tsinghua.edu.cn<br>
-  	         Office: Jin Chun Yuan West Building 138<br>
+  	         Office: 138 JinChunYuan West Building<br>
   	         Research interests:<br>
   	         <em>Algebraic geometry, Mathematical Physics</em>
   	        </td>
