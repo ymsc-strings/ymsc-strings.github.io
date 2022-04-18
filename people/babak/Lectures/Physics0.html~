@@ -3,7 +3,7 @@
   <head>
     <link rel="shortcut icon" href="../../../pics/YMSC-Logo.jpg">
     <link rel="stylesheet" href="../../../main.css">
-    <title>3D topological phases from six dimensions</title>
+    <title>Physics 0</title>
   </head>
   
   <body>
@@ -15,14 +15,15 @@
       <table>
 	<tr>
 	  <td>
-	  <h2><strong>3D topological phases from six dimensions</strong></h2><br>
+	  <h2><strong>Physics 0</strong></h2><br>
 	  <h3><small> Lecture notes </small></h3>
 	  </td>
 	</tr>
 	<tr>
 	  <td>
 	    <ul>
-	      <li><a href="3Dfrom6D/Lecture 1.pdf" target="_blank">Lecture 1</a></li>
+	      <li><a href="Physics0/Lecture 1.pdf" target="_blank">Lecture 1</a></li>
+	      <li><a href="Physics0/Lecture 2.pdf" target="_blank">Lecture 2</a></li>
 	  </td>
 	</tr>
       </table>
