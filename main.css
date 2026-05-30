@@ -544,7 +544,7 @@ h4,
 h5,
 h6 {
   font-weight: 300;
-  letter-spacing: -.1rem;
+  letter-spacing: 0;
   margin-bottom: 2.0rem;
   margin-top: 0;
 }
@@ -566,13 +566,13 @@ h3 {
 
 h4 {
   font-size: 2.2rem;
-  letter-spacing: -.08rem;
+  letter-spacing: 0;
   line-height: 1.35;
 }
 
 h5 {
   font-size: 1.8rem;
-  letter-spacing: -.05rem;
+  letter-spacing: 0;
   line-height: 1.5;
 }
 
@@ -600,9 +600,9 @@ img {
   float: right;
 }
 
-<!-- Customized by Wenbin -->
+/* Customized by Wenbin */
 
-<!-- Navigation bar -->
+/* Navigation bar */
 
 nav {
   margin: 0;
@@ -635,12 +635,12 @@ nav ul {
 
 nav ul li {
   float: left;
- display: inline-block;
- font-size: 2rem;
- list-style-type: none;
- margin: 0;
- padding: 0;
- text-align: center;-->
+  display: inline-block;
+  font-size: 2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 nav li a, .dropbtn {
@@ -694,6 +694,46 @@ nav .dropdown-content a:hover {
 
 nav .dropdown:hover .dropdown-content {
   display: block;
+}
+
+#container {
+  max-width: 112rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+#content {
+  overflow-x: auto;
+}
+
+a {
+  overflow-wrap: break-word;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  nav ul li {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+  nav .dropdown-content {
+    box-shadow: none;
+    position: static;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+  }
 }
 
 /* Babak's additions */
