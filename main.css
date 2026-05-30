@@ -714,6 +714,71 @@ iframe {
   max-width: 100%;
 }
 
+.source-note {
+  color: #606c76;
+  font-size: 1.4rem;
+  margin-top: -1rem;
+}
+
+.section-intro {
+  max-width: 82rem;
+}
+
+.people-grid {
+  display: grid;
+  gap: 1.6rem;
+  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+  margin-bottom: 3rem;
+}
+
+.person-card {
+  border: 0.1rem solid #e1e1e1;
+  border-radius: .4rem;
+  padding: 1.6rem;
+}
+
+.person-card strong {
+  font-size: 1.9rem;
+}
+
+.person-meta {
+  color: #606c76;
+  margin-bottom: 1rem;
+}
+
+.person-card dl {
+  margin-bottom: 0;
+}
+
+.person-card dt {
+  color: #606c76;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: .2rem;
+  text-transform: uppercase;
+}
+
+.person-card dd {
+  margin-left: 0;
+}
+
+.profile-section {
+  margin-bottom: 2.8rem;
+  max-width: 92rem;
+}
+
+.profile-section ul {
+  margin-left: 2rem;
+}
+
+.profile-section li {
+  margin-bottom: .7rem;
+}
+
+.paper-list li {
+  margin-bottom: 1rem;
+}
+
 @media (max-width: 700px) {
   h1 {
     font-size: 3.2rem;
