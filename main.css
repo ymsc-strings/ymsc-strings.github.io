@@ -909,6 +909,15 @@ iframe {
   padding: 1.9rem 0;
 }
 
+.member-index .person-card {
+  grid-template-columns: minmax(14rem, 20rem) minmax(0, 64rem);
+}
+
+.member-index .person-card p {
+  margin-bottom: 0;
+  max-width: 64rem;
+}
+
 .person-card {
   border: 0;
   border-top: 0.1rem solid #d7dce0;
