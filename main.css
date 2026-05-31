@@ -802,6 +802,33 @@ nav .dropdown:hover .dropbtn {
   color: #111111;
 }
 
+nav ul li.language-switch {
+  align-items: center;
+  color: #7b8289;
+  display: flex;
+  font-size: 1.25rem;
+  gap: 0.7rem;
+  margin-left: auto;
+  padding: 0.3rem 0;
+}
+
+nav li.language-switch a,
+nav li.language-switch span {
+  background: transparent;
+  border: 0;
+  display: inline;
+  padding: 0;
+}
+
+nav li.language-switch a:hover {
+  background: transparent;
+}
+
+nav li.language-switch span {
+  color: #111111;
+  font-weight: 650;
+}
+
 nav .dropdown-content {
   background-color: #fbfbfb;
   border: 0.1rem solid #d7dce0;
@@ -1201,6 +1228,10 @@ iframe {
   nav ul li {
     display: block;
     float: none;
+  }
+
+  nav ul li.language-switch {
+    margin-left: 0;
   }
 
   nav .dropdown-content {
