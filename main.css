@@ -936,6 +936,19 @@ iframe {
   padding: 1.9rem 0;
 }
 
+.people-grid.former-people-grid .person-card {
+  grid-template-columns: minmax(13rem, 0.75fr) minmax(0, 2.25fr);
+}
+
+.people-grid.former-people-grid .person-card dl {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.people-grid.former-people-grid .person-meta {
+  display: none;
+}
+
 .member-index .person-card {
   grid-template-columns: minmax(14rem, 20rem) minmax(0, 64rem);
 }
@@ -1155,6 +1168,42 @@ iframe {
   padding: 1.2rem 0;
 }
 
+.seminar-list {
+  border-top: 0.1rem solid #d7dce0;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.seminar-list li {
+  border-bottom: 0.1rem solid #d7dce0;
+  display: grid;
+  gap: 0.5rem 1.8rem;
+  grid-template-columns: 13rem minmax(0, 1fr);
+  margin-bottom: 0;
+  padding: 1.3rem 0;
+}
+
+.seminar-date {
+  color: #7b8289;
+  font-size: 1.3rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.55;
+}
+
+.seminar-entry > a {
+  display: block;
+  font-weight: 650;
+  margin-bottom: 0.3rem;
+}
+
+.seminar-meta {
+  color: #4f565d;
+  display: block;
+  font-size: 1.4rem;
+  line-height: 1.65;
+}
+
 .publication-list li {
   display: grid;
   gap: 0.4rem 1.6rem;
@@ -1255,6 +1304,12 @@ iframe {
     grid-template-columns: 1fr;
   }
 
+  .people-grid.former-people-grid .person-card dl,
+  .people-grid.former-people-grid .person-meta {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
   .visitor-info-list {
     grid-template-columns: 1fr;
   }
@@ -1266,6 +1321,10 @@ iframe {
   }
 
   .publication-list li {
+    grid-template-columns: 1fr;
+  }
+
+  .seminar-list li {
     grid-template-columns: 1fr;
   }
 }
