@@ -1197,11 +1197,25 @@ iframe {
   margin-bottom: 0.3rem;
 }
 
+.seminar-title {
+  display: block;
+  font-weight: 650;
+  margin-bottom: 0.3rem;
+}
+
 .seminar-meta {
   color: #4f565d;
   display: block;
   font-size: 1.4rem;
   line-height: 1.65;
+}
+
+.seminar-abstract {
+  color: #2f353b;
+  display: block;
+  font-size: 1.4rem;
+  line-height: 1.7;
+  margin-top: 0.7rem;
 }
 
 .publication-list li {
