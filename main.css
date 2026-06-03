@@ -1132,20 +1132,28 @@ iframe {
   margin: 0.4rem 0 0;
 }
 
-.visitor-map-panel > a {
+.visitor-map-actions {
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  justify-content: flex-end;
+}
+
+.visitor-map-actions > a {
   border: 0.1rem solid #5f2a7a;
   color: #5f2a7a;
-  flex: 0 0 auto;
   font-size: 1.35rem;
   padding: 0.65rem 1rem;
 }
 
-.visitor-map-panel > a:hover {
+.visitor-map-actions > a:hover {
   background: #5f2a7a;
   color: #ffffff;
 }
 
 .visitor-map-embed {
+  background: #eef2f4;
   border: 0.1rem solid #d7dce0;
   height: clamp(24rem, 45vw, 38rem);
   margin: 1.2rem 0 1rem;
@@ -1346,6 +1354,10 @@ iframe {
     align-items: flex-start;
     flex-direction: column;
     gap: 1rem;
+  }
+
+  .visitor-map-actions {
+    justify-content: flex-start;
   }
 
   .publication-list li {
